@@ -1,0 +1,27 @@
+{
+  "label": "SYNTHETIC M0 PROTOTYPE; not transportation/FedEx findings",
+  "model": {
+    "K": 100.0,
+    "c": 8.0,
+    "p0": "0.32 exp(-0.075 a)",
+    "p1": "p0+(1-p0)*0.35"
+  },
+  "example": {
+    "age": 3,
+    "slack": 5,
+    "value_dp": 15.891571954284396,
+    "first_action": 0,
+    "mc_mean_cost": 16.05184,
+    "mc_se": 0.20599203725715354,
+    "mc_failure_fraction": 0.0796,
+    "absolute_mc_gap": 0.16026804571560227,
+    "mc_tolerance_5se": 1.0299601862857677
+  },
+  "exhaustive_agreement_max": 7.105427357601002e-15,
+  "ordering_diagnostic": {
+    "states_checked": 210,
+    "errors": []
+  },
+  "charge_reversals_on_test_grid": [],
+  "limitation": "Charge-index monotonicity not established by a finite-grid check; M1 and observational causal effects not implemented."
+}
