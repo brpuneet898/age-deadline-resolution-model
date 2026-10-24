@@ -34,10 +34,12 @@ class M0:
     def probability(self, u: int, a: int) -> float:
         if u not in (0, 1) or a < 0 or not isinstance(a, int):
             raise ValueError('Expected u in {0,1} and a nonnegative integer dwell age.')
-        p = self.p1(a) if u else self.p0(a)
-        if not isfinite(p) or not (0 <= p <= 1):
-            raise ValueError(f'Invalid probability p_{u}({a})={p}.')
-        return float(p)
+        p0, p1 = self.p0(a), self.p1(a)
+        if not (isfinite(p0) and isfinite(p1) and 0 <= p0 <= p1 <= 1):
+            raise ValueError(
+                f'Expected 0 <= p0({a}) <= p1({a}) <= 1; got {p0}, {p1}.'
+            )
+        return float(p1 if u else p0)
 
     def solve(self, age: int, slack: int, *, charge: float = 0.0,
               passive_subsidy: float = 0.0) -> tuple[float, int]:
@@ -66,6 +68,13 @@ class M0:
     def evaluate_sequence(self, age: int, slack: int, actions: tuple[int, ...],
                           *, charge: float = 0.0, passive_subsidy: float = 0.0) -> float:
         """Exact cost of a time-dependent policy along the unresolved path."""
+        if (not isinstance(age, int) or not isinstance(slack, int)
+            or age < 0 or slack < 0):
+            raise ValueError('age and slack must be nonnegative integers')
+        if charge != 0.0 and passive_subsidy != 0.0:
+            raise ValueError('Charge and passive subsidy are different relaxations.')
+        if not (isfinite(charge) and isfinite(passive_subsidy)):
+            raise ValueError('Relaxation parameters must be finite.')
         if len(actions) != slack or any(a not in (0,1) for a in actions):
             raise ValueError('One binary action for each possible unresolved interval.')
         cost, surv = 0.0, 1.0
