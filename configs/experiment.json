@@ -1,0 +1,8 @@
+{
+  "seed": 20261031,
+  "pilot_scenarios": 2,
+  "pilot_replications": 10,
+  "target_scenarios": 432,
+  "initial_target_replications_per_scenario": 500,
+  "note": "432 factors in scenario_grid.py are illustrative, NOT independently verified against frozen D0 charter. Approve before interpreting final results."
+}
