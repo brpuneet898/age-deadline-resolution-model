@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<rect width="100%" height="100%" fill="white"/><text x="380.0" y="26" text-anchor="middle" font-family="Arial" font-size="17">Small-N: expected-cost gap to exact capacity DP</text>
+<path d="M 70 45 V 355 H 725" fill="none" stroke="#333" stroke-width="2"/>
+<polyline points="70.0,352.2 233.8,355.0 397.5,355.0 561.2,355.0 725.0,45.0" fill="none" stroke="#2463ac" stroke-width="2.5"/>
+<circle cx="70.0" cy="352.21747980366973" r="4" fill="#2463ac"/><circle cx="233.75" cy="355.0" r="4" fill="#2463ac"/><circle cx="397.5" cy="355.0" r="4" fill="#2463ac"/><circle cx="561.25" cy="355.0" r="4" fill="#2463ac"/><circle cx="725.0" cy="45.0" r="4" fill="#2463ac"/>
+<text x="70" y="376" text-anchor="middle" font-size="12">1</text><text x="234" y="376" text-anchor="middle" font-size="12">2</text><text x="398" y="376" text-anchor="middle" font-size="12">3</text><text x="561" y="376" text-anchor="middle" font-size="12">4</text><text x="725" y="376" text-anchor="middle" font-size="12">5</text><text x="380.0" y="407" font-family="Arial" text-anchor="middle">Policy ordinal (see JSON)</text>
+<text x="18" y="210.0" font-family="Arial" transform="rotate(-90 18 210.0)" text-anchor="middle">Absolute optimality gap</text>
+</svg>
