@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.0,
+      "p10": 0.2,
+      "p11": 0.0,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.0,
+      "p10": 0.6,
+      "p11": 0.0,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.2,
+      "p10": 0.2,
+      "p11": 0.2,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.2,
+      "p10": 0.6,
+      "p11": 0.2,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.6,
+      "p10": 0.2,
+      "p11": 0.6,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.0,
+      "p01": 0.6,
+      "p10": 0.6,
+      "p11": 0.6,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.2,
+      "p01": 0.0,
+      "p10": 0.6,
+      "p11": 0.0,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.2,
+      "p01": 0.2,
+      "p10": 0.6,
+      "p11": 0.2,
+      "c": 8.0,
+      "K": 100.0
+    },
+    {
+      "kind": "age_active_upper_set_violation",
+      "age": 0,
+      "slack": 1,
+      "p00": 0.2,
+      "p01": 0.6,
+      "p10": 0.6,
+      "p11": 0.6,
+      "c": 8.0,
+      "K": 100.0
+    }
+  ],
+  "note": "finite search; no minimality certificate"
+}

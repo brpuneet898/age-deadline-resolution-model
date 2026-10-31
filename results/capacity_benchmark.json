@@ -1,0 +1,50 @@
+{
+  "optimal": {
+    "value": 126.04966261256261,
+    "initial_action": [
+      0
+    ],
+    "states": 33,
+    "certificate": "exhaustive feasible joint-action Bellman enumeration",
+    "capacity": 1,
+    "N": 3
+  },
+  "policies": [
+    {
+      "policy": "critical_cost",
+      "expected_cost": 126.43399553207489,
+      "absolute_gap": 0.3843329195122749,
+      "relative_gap": 0.003049059486129642,
+      "capacity_violations": 0
+    },
+    {
+      "policy": "failure_risk",
+      "expected_cost": 126.04966261256261,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "capacity_violations": 0
+    },
+    {
+      "policy": "earliest_deadline",
+      "expected_cost": 126.04966261256261,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "capacity_violations": 0
+    },
+    {
+      "policy": "myopic_benefit",
+      "expected_cost": 126.04966261256261,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "capacity_violations": 0
+    },
+    {
+      "policy": "never_active",
+      "expected_cost": 168.86811374400003,
+      "absolute_gap": 42.81845113143741,
+      "relative_gap": 0.33969508718994346,
+      "capacity_violations": 0
+    }
+  ],
+  "note": "Exact small-N benchmark only; no index-policy optimality theorem"
+}

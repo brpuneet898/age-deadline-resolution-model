@@ -1,0 +1,18 @@
+{
+  "reps": 10,
+  "scenario_count": 5,
+  "n": 3,
+  "seed": 20261031,
+  "scenario_grid_source": "illustrative, MUST be checked against charter",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "policy_names": [
+    "critical_cost",
+    "failure_risk",
+    "earliest_deadline",
+    "myopic_benefit",
+    "never_active"
+  ],
+  "output": "results\\pilot.csv",
+  "git_commit": "1819df037314c92d01bfbf852a56cda85ae64789"
+}

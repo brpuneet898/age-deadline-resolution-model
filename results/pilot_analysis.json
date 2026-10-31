@@ -1,0 +1,245 @@
+{
+  "paired_comparisons": [
+    {
+      "scenario_id": 1,
+      "reference": "critical_cost",
+      "comparator": "failure_risk",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 1,
+      "reference": "critical_cost",
+      "comparator": "earliest_deadline",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 1,
+      "reference": "critical_cost",
+      "comparator": "myopic_benefit",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 1,
+      "reference": "critical_cost",
+      "comparator": "never_active",
+      "n": 10,
+      "paired_mean_cost_difference": -18.0,
+      "ci95_normal_approx": [
+        -39.66861529698861,
+        3.6686152969886123
+      ],
+      "se": 11.055415967851333
+    },
+    {
+      "scenario_id": 2,
+      "reference": "critical_cost",
+      "comparator": "failure_risk",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 2,
+      "reference": "critical_cost",
+      "comparator": "earliest_deadline",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 2,
+      "reference": "critical_cost",
+      "comparator": "myopic_benefit",
+      "n": 10,
+      "paired_mean_cost_difference": 9.0,
+      "ci95_normal_approx": [
+        -5.969747270189076,
+        23.969747270189075
+      ],
+      "se": 7.637626158259733
+    },
+    {
+      "scenario_id": 2,
+      "reference": "critical_cost",
+      "comparator": "never_active",
+      "n": 10,
+      "paired_mean_cost_difference": 9.0,
+      "ci95_normal_approx": [
+        -5.969747270189076,
+        23.969747270189075
+      ],
+      "se": 7.637626158259733
+    },
+    {
+      "scenario_id": 3,
+      "reference": "critical_cost",
+      "comparator": "failure_risk",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 3,
+      "reference": "critical_cost",
+      "comparator": "earliest_deadline",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 3,
+      "reference": "critical_cost",
+      "comparator": "myopic_benefit",
+      "n": 10,
+      "paired_mean_cost_difference": 26.0,
+      "ci95_normal_approx": [
+        12.933333333333335,
+        39.06666666666666
+      ],
+      "se": 6.666666666666666
+    },
+    {
+      "scenario_id": 3,
+      "reference": "critical_cost",
+      "comparator": "never_active",
+      "n": 10,
+      "paired_mean_cost_difference": 26.0,
+      "ci95_normal_approx": [
+        12.933333333333335,
+        39.06666666666666
+      ],
+      "se": 6.666666666666666
+    },
+    {
+      "scenario_id": 4,
+      "reference": "critical_cost",
+      "comparator": "failure_risk",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 4,
+      "reference": "critical_cost",
+      "comparator": "earliest_deadline",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 4,
+      "reference": "critical_cost",
+      "comparator": "myopic_benefit",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 4,
+      "reference": "critical_cost",
+      "comparator": "never_active",
+      "n": 10,
+      "paired_mean_cost_difference": -8.0,
+      "ci95_normal_approx": [
+        -34.133333333333326,
+        18.13333333333333
+      ],
+      "se": 13.333333333333332
+    },
+    {
+      "scenario_id": 5,
+      "reference": "critical_cost",
+      "comparator": "failure_risk",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 5,
+      "reference": "critical_cost",
+      "comparator": "earliest_deadline",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 5,
+      "reference": "critical_cost",
+      "comparator": "myopic_benefit",
+      "n": 10,
+      "paired_mean_cost_difference": 0.0,
+      "ci95_normal_approx": [
+        0.0,
+        0.0
+      ],
+      "se": 0.0
+    },
+    {
+      "scenario_id": 5,
+      "reference": "critical_cost",
+      "comparator": "never_active",
+      "n": 10,
+      "paired_mean_cost_difference": -6.0,
+      "ci95_normal_approx": [
+        -35.93949454037815,
+        23.939494540378153
+      ],
+      "se": 15.275252316519467
+    }
+  ],
+  "interpretation": "Negative difference favors critical_cost; normal approximation CI (not exact small-sample coverage)."
+}

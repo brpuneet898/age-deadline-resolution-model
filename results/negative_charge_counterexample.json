@@ -1,0 +1,79 @@
+[
+  {
+    "k": -150.0,
+    "lam": -158.0,
+    "V_1_2": -200.0,
+    "Q_passive": -200.0,
+    "Q_active": -150.0,
+    "V_0_3": -200.0,
+    "action": 0,
+    "analytic_cont": -200.0,
+    "enumeration": -200.0
+  },
+  {
+    "k": -100.0,
+    "lam": -108.0,
+    "V_1_2": -100.0,
+    "Q_passive": -100.0,
+    "Q_active": -100.0,
+    "V_0_3": -100.0,
+    "action": 0,
+    "analytic_cont": -100.0,
+    "enumeration": -100.0
+  },
+  {
+    "k": -50.0,
+    "lam": -58.0,
+    "V_1_2": 0.0,
+    "Q_passive": 0.0,
+    "Q_active": -50.0,
+    "V_0_3": -50.0,
+    "action": 1,
+    "analytic_cont": 0.0,
+    "enumeration": -50.0
+  },
+  {
+    "k": 0.0,
+    "lam": -8.0,
+    "V_1_2": 100.0,
+    "Q_passive": 100.0,
+    "Q_active": 0.0,
+    "V_0_3": 0.0,
+    "action": 1,
+    "analytic_cont": 100,
+    "enumeration": 0.0
+  },
+  {
+    "k": 99.0,
+    "lam": 91.0,
+    "V_1_2": 100.0,
+    "Q_passive": 100.0,
+    "Q_active": 99.0,
+    "V_0_3": 99.0,
+    "action": 1,
+    "analytic_cont": 100,
+    "enumeration": 99.0
+  },
+  {
+    "k": 100.0,
+    "lam": 92.0,
+    "V_1_2": 100.0,
+    "Q_passive": 100.0,
+    "Q_active": 100.0,
+    "V_0_3": 100.0,
+    "action": 0,
+    "analytic_cont": 100,
+    "enumeration": 100.0
+  },
+  {
+    "k": 150.0,
+    "lam": 142.0,
+    "V_1_2": 100.0,
+    "Q_passive": 100.0,
+    "Q_active": 150.0,
+    "V_0_3": 100.0,
+    "action": 0,
+    "analytic_cont": 100,
+    "enumeration": 100.0
+  }
+]
