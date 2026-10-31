@@ -1,0 +1,23 @@
+test_one_job_matches_m0 (test_capacity_dp.CapacityTests.test_one_job_matches_m0) ... ok
+test_policy_optimality_gaps (test_capacity_dp.CapacityTests.test_policy_optimality_gaps) ... ok
+test_reject_infeasible_policy (test_capacity_dp.CapacityTests.test_reject_infeasible_policy) ... ok
+test_resolved_and_terminal_handling (test_capacity_dp.CapacityTests.test_resolved_and_terminal_handling) ... ok
+test_sample_seed_repeatability (test_capacity_dp.CapacityTests.test_sample_seed_repeatability) ... ok
+test_zero_capacity (test_capacity_dp.CapacityTests.test_zero_capacity) ... ok
+test_dp_enumeration (test_m0.M0Tests.test_dp_enumeration) ... ok
+test_finite_hazards_at_reachable_age (test_m0.M0Tests.test_finite_hazards_at_reachable_age) ... ok
+test_global_counterexample (test_m0.M0Tests.test_global_counterexample) ... ok
+test_incompatible_params (test_m0.M0Tests.test_incompatible_params) ... ok
+test_invalid_age_slack_types (test_m0.M0Tests.test_invalid_age_slack_types) ... ok
+test_invalid_costs_and_actions (test_m0.M0Tests.test_invalid_costs_and_actions) ... ok
+test_invalid_probabilities (test_m0.M0Tests.test_invalid_probabilities) ... ok
+test_positive_charge_nesting (test_m0.M0Tests.test_positive_charge_nesting) ... ok
+test_terminal_and_last_interval (test_m0.M0Tests.test_terminal_and_last_interval) ... ok
+test_ties_passive (test_m0.M0Tests.test_ties_passive) ... ok
+test_grid_count (test_simulation.SimulationTests.test_grid_count) ... ok
+test_paired_rows_and_reproducibility (test_simulation.SimulationTests.test_paired_rows_and_reproducibility) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.149s
+
+OK

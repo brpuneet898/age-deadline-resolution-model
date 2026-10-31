@@ -1,0 +1,16 @@
+{
+  "cases": 576,
+  "max_abs_dp_minus_enumeration": 5.684341886080802e-14,
+  "worst_case": {
+    "model": 0,
+    "age": 0,
+    "slack": 7,
+    "k": -150.0,
+    "dp": -272.34006110412344,
+    "enum": -272.3400611041234
+  },
+  "tolerance": 1e-10,
+  "pass": true,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}
